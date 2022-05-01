@@ -1,4 +1,4 @@
-# Ubuntu20 amd64/x86_64 and Ubuntu22 arm64/aarch64 RPi 3 & 4 - Package install of ver 7.2 piaware, dump1090-fa, piaware-web, dump978-fa
+# Ubuntu22 amd64/x86_64 and Ubuntu22 arm64/aarch64 RPi 3 & 4 - Package install of ver 7.2 piaware, dump1090-fa, piaware-web, dump978-fa
 
 ### STEP-1: Add this repository to list of apt sources by following 3 commands:
 **First two commands are long. Please scroll right to see and copy them in FULL.** 
