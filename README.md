@@ -1,4 +1,5 @@
-## Package install of ver 8.2 piaware, dump1090-fa, piaware-web, and dump978-fa on: <br> (1) Ubuntu-22.04 amd64/x86_64 (PC) </br> (2) Ubuntu22.04 arm64/aarch64 (RPi 3 & 4)
+## Package install of ver 8.2 piaware, dump1090-fa, piaware-web, and dump978-fa on: 
+## (1) Ubuntu-22.04 amd64/x86_64 (PC) </br> (2) Ubuntu22.04 arm64/aarch64 (RPi 3 & 4)
 
 ### STEP-1: Add this repository to list of apt sources by following 3 commands:
 **First two commands are long. Please scroll right to see and copy them in FULL.** 
