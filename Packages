@@ -1,0 +1,222 @@
+Package: dump1090-fa
+Version: 8.2
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 11689
+Depends: libbladerf2 (>= 0.2021.10), libc6 (>= 2.34), libhackrf0 (>= 2021.03.1), liblimesuite20.10-1 (>= 20.10.0+dfsg), libncurses6 (>= 6), librtlsdr0 (>= 0.6.0), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./dump1090-fa_8.2_arm64.deb
+Size: 2373276
+MD5sum: 418d054edc1096e68a59f349f15da13f
+SHA1: aa47d4ece6cbe365b5d9484b64b12b7cfb20b4e2
+SHA256: 8c50dc87c4ea875b17812696ab5549d4bb0b94679d2f83687e758e9fa9836ea0
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa
+Version: 8.2
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 11691
+Depends: libbladerf2 (>= 0.2021.10), libc6 (>= 2.34), libhackrf0 (>= 2021.03.1), liblimesuite20.10-1 (>= 20.10.0+dfsg), libncurses6 (>= 6), librtlsdr0 (>= 0.6.0), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./dump1090-fa_8.2_amd64.deb
+Size: 2374662
+MD5sum: ec3e9793bf5ad8486442dde6491edf6c
+SHA1: 2080a8f18859ba7f35e60d008e837bd1048a926e
+SHA256: a0a9adacc1e35ca7d3246a80d96888da3465b2b86e5bbff99a7e3792144e7e51
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump978-fa
+Version: 8.2
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver@mutability.co.uk>
+Installed-Size: 547
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11), adduser, skyaware978, soapysdr-module-rtlsdr
+Filename: ./dump978-fa_8.2_amd64.deb
+Size: 194918
+MD5sum: af511f148b07df3e7adf42cf38365650
+SHA1: 1a568e35a7539bff80b574fc89c7963ecd56ff9f
+SHA256: f9dbea20ee60eb3ed747d9b7a4829b10367ed2bba493ff1fec7f6f7926bc8cb8
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
+
+Package: dump978-fa
+Version: 8.2
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver@mutability.co.uk>
+Installed-Size: 514
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11), adduser, skyaware978, soapysdr-module-rtlsdr
+Filename: ./dump978-fa_8.2_arm64.deb
+Size: 189338
+MD5sum: 85b6bc9347b22314d8abeade9bc2380e
+SHA1: 28076e25ce9ec61d15300b98cd3fe797c89e60bb
+SHA256: 9f064dbff4a101a2ea1a2b5723b889195698fb6303c8098104c0594799c102de
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
+
+Package: piaware
+Version: 8.2
+Architecture: arm64
+Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
+Installed-Size: 19906
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libbz2-1.0, libc6 (>= 2.35), libexpat1 (>= 2.1~beta3), libffi8 (>= 3.4), libgcc-s1 (>= 3.3.1), liblzma5 (>= 5.1.1alpha+20120614), libmpdec3, libreadline8 (>= 7.0~beta), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libtcl8.6 (>= 8.6.0), zlib1g (>= 1:1.2.0), net-tools, iproute2, tclx8.4, tcl8.6, tcllib, tcl-tls (>= 1.7.22-2+fa1), itcl3
+Suggests: dump1090-fa, dump978-fa
+Conflicts: fa-mlat-client
+Replaces: fa-mlat-client
+Filename: ./piaware_8.2_arm64.deb
+Size: 4485496
+MD5sum: b2f638b5bdd87adb1a41484baaa3b314
+SHA1: e7a0a4beed3c052520cec66a0f133afa865101d9
+SHA256: 0c2ad8a77786cb1b5b82b73a15fc622a599108487402285a182e0ffa7120238f
+Section: embedded
+Priority: extra
+Homepage: https://github.com/flightaware
+Description: Open Aviation Data Exchange Protocol for ADS-B FlightFeeders
+  The client-side portion of fa_adept that sends aviation data via TCL sockets.
+
+Package: piaware
+Version: 8.2
+Architecture: amd64
+Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
+Installed-Size: 20227
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libbz2-1.0, libc6 (>= 2.35), libexpat1 (>= 2.1~beta3), libffi8 (>= 3.4), libgcc-s1 (>= 3.3.1), liblzma5 (>= 5.1.1alpha+20120614), libmpdec3, libreadline8 (>= 7.0~beta), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libtcl8.6 (>= 8.6.0), zlib1g (>= 1:1.2.0), net-tools, iproute2, tclx8.4, tcl8.6, tcllib, tcl-tls (>= 1.7.22-2+fa1), itcl3
+Suggests: dump1090-fa, dump978-fa
+Conflicts: fa-mlat-client
+Replaces: fa-mlat-client
+Filename: ./piaware_8.2_amd64.deb
+Size: 4559074
+MD5sum: 0de7bd83ee1bf46869a01d005da13e8d
+SHA1: b6db262c65d5845c7d2a771ebb1427558d63e741
+SHA256: d8b4a729d8db5ab8eb9fe21ef5928c4befb1370896db978eb2207e5c171230fe
+Section: embedded
+Priority: extra
+Homepage: https://github.com/flightaware
+Description: Open Aviation Data Exchange Protocol for ADS-B FlightFeeders
+  The client-side portion of fa_adept that sends aviation data via TCL sockets.
+
+Package: piaware-web
+Version: 8.2
+Architecture: all
+Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
+Installed-Size: 372
+Depends: lighttpd
+Filename: ./piaware-web_8.2_all.deb
+Size: 91582
+MD5sum: c52454a1b8c84f4a60042bccd2d923f8
+SHA1: 197919c698ae6870d5422b63d880f8844897b523
+SHA256: ae42b17304461e57e9b2234682b0ee8e087eae11949a8eb504d768d76ff929a9
+Section: embedded
+Priority: extra
+Homepage: https://github.com/flightaware
+Description: PiAware landing webpage
+
+Package: skyaware978
+Source: dump978-fa
+Version: 8.2
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver@mutability.co.uk>
+Installed-Size: 14258
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./skyaware978_8.2_amd64.deb
+Size: 2686718
+MD5sum: 9123ab252462ae4ca2c86bedcc255760
+SHA1: 0ea03a4bbf6169dd8d80c85e954c0dd00589eb4d
+SHA256: fc1932dd60bc115c4435d6ffa471d42506377e3d1afa600fc13e84217db3a951
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: skyaware978
+Source: dump978-fa
+Version: 8.2
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver@mutability.co.uk>
+Installed-Size: 14230
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./skyaware978_8.2_arm64.deb
+Size: 2685974
+MD5sum: f0ad592da6ba004c2a8637ea2be4f87c
+SHA1: 03b3c771b8324789f70b77e7aa91342d31bbd598
+SHA256: 8e1eaa46613d224534510e4ab13f42d0f3c43bb4759b908e06d091e8981c73fc
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: tcl-tls
+Source: tcltls
+Version: 1.7.22-2+fa1
+Architecture: amd64
+Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Installed-Size: 167
+Depends: libc6 (>= 2.14), libssl3 (>= 3.0.0~~alpha1), libtcl8.6 (>= 8.6.11+dfsg-1~) | libtcl
+Conflicts: libtls0, tcltls
+Replaces: libtls0, tcltls
+Provides: tcltls
+Filename: ./tcl-tls_1.7.22-2+fa1_amd64.deb
+Size: 70674
+MD5sum: 2bb844233eecc4d07b6866ab994bf710
+SHA1: d1fb8f850ce3cb03ffa94f2e1f406f9e028e8758
+SHA256: da8e3ce93ab79a635419043ab11acc58b8fc0fdb0e10e190d16b23a267c90280
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://core.tcl.tk/tcltls
+Description: TLS OpenSSL extension to Tcl
+ This package enables communication over SSL-encrypted channels in Tcl.
+ .
+ Both client and server-side sockets are possible. Additionally, full
+ filevent semantics should be intact.
+
+Package: tcl-tls
+Source: tcltls
+Version: 1.7.22-2+fa1
+Architecture: arm64
+Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Installed-Size: 163
+Depends: libc6 (>= 2.17), libssl3 (>= 3.0.0~~alpha1), libtcl8.6 (>= 8.6.11+dfsg-1~) | libtcl
+Conflicts: libtls0, tcltls
+Replaces: libtls0, tcltls
+Provides: tcltls
+Filename: ./tcl-tls_1.7.22-2+fa1_arm64.deb
+Size: 71174
+MD5sum: 0fa26e11d65a6e0d3487eac7d6843e3c
+SHA1: b923bb98a5401e86fec4b7246bb238a0042e6fe4
+SHA256: 6a891b9f0e6390308752c33f36ff6a8535283b8183e37310b3de187f0ebf9016
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://core.tcl.tk/tcltls
+Description: TLS OpenSSL extension to Tcl
+ This package enables communication over SSL-encrypted channels in Tcl.
+ .
+ Both client and server-side sockets are possible. Additionally, full
+ filevent semantics should be intact.
+
