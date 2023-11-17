@@ -1,7 +1,7 @@
 ## Package install of ver 9.0 piaware, dump1090-fa, piaware-web, and dump978-fa on:
-### (1) Ubuntu-22.04 (jammy) amd64/x86_64 (PC / Laptop) 
-### (2) Ubuntu-22.04 (jammy) arm64/aarch64 (RPi 3 & 4) 
-### (3) Ubuntu-22.04 (jammy) armhf/armv7l (RPi 3 & 4) </br></br>
+### (1) Ubuntu-22.04.3 LTS (jammy) amd64/x86_64 (PC / Laptop) 
+### (2) Ubuntu-22.04.3 LTS (jammy) arm64/aarch64 (RPi 3 & 4) 
+### (3) Ubuntu-22.04.3 LTS (jammy) armhf/armv7l (RPi 3 & 4) </br></br>
 
 ### STEP-1: Add this repository to list of apt sources by following 3 commands:
 **First two commands are long. Please scroll right to see and copy them in FULL.** 
