@@ -1,4 +1,4 @@
-## Package install of ver 10.0 piaware, dump1090-fa, piaware-web, and dump978-fa on:
+## Package install of ver 11.0 piaware, dump1090-fa, piaware-web, and dump978-fa on:
 ### (1) Ubuntu-22.04 (jammy) amd64/x86_64 (PC / Laptop) 
 ### (2) Ubuntu-22.04 (jammy) arm64/aarch64 (RPi 3 & 4) 
 </br></br>
