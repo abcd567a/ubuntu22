@@ -23,7 +23,7 @@ Architecture: amd64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
 Installed-Size: 12211
 Depends: libbladerf2 (>= 0.2021.10), libc6 (>= 2.34), libhackrf0 (>= 2021.03.1), liblimesuite20.10-1 (>= 20.10.0+dfsg), libncurses6 (>= 6), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1), libtinfo6 (>= 6), adduser, lighttpd
-Filename: ./dump1090-fa_11.0~bpo-ubuntu22-1_amd64.deb
+Filename: ./dump1090-fa_11.0-bpo-ubuntu22-1_amd64.deb
 Size: 2454898
 MD5sum: fe2193dcae32c8317faea7f96f2ca36a
 SHA1: 9b15df42c9da4f55ee0fa5db707f30ad8b1bba2b
@@ -61,7 +61,7 @@ Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
 Installed-Size: 542
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11), adduser
 Recommends: skyaware978, soapysdr-module-rtlsdr
-Filename: ./dump978-fa_11.0~bpo-ubuntu22-1_amd64.deb
+Filename: ./dump978-fa_11.0-bpo-ubuntu22-1_amd64.deb
 Size: 192536
 MD5sum: f6c62ee71587982a3e38136776fa8e71
 SHA1: cad968c99c14d1eaed275445ecad055d71955acd
@@ -102,7 +102,7 @@ Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70,
 Suggests: dump1090-fa, dump978-fa
 Conflicts: fa-mlat-client
 Replaces: fa-mlat-client
-Filename: ./piaware_11.0~ubuntu2204-1_amd64.deb
+Filename: ./piaware_11.0-ubuntu2204-1_amd64.deb
 Size: 4646784
 MD5sum: cb54b63fb9b292801543e6e92e603121
 SHA1: ed9e944b8277552083bf46cdb770ae2e6e9d50fb
@@ -159,7 +159,7 @@ Installed-Size: 14780
 Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), adduser, lighttpd
 Breaks: skyview978 (<< 3.7.2~)
 Replaces: skyview978 (<< 3.7.2~)
-Filename: ./skyaware978_11.0~bpo-ubuntu22-1_amd64.deb
+Filename: ./skyaware978_11.0-bpo-ubuntu22-1_amd64.deb
 Size: 2770434
 MD5sum: aaf5d5bf95a3c16df4b46ff344167dea
 SHA1: 16b5a6ebcc03a5d48a24f354e73c2a47e431c9a9
